@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--<a target="_blank" href="https://icons8.com/icon/9470/math">Math</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+    <link rel='shortcut icon' type="image/x-icon" href="/favicon.ico?v=2" />
+    <link href="http://fonts.cdnfonts.com/css/signika-negative-sc" rel="stylesheet">
+    <title>Calculation by AryaBun</title>
+</head>
+<style>
+    body {
+        background-color: rgba(10, 6, 53, 1);
+        font-family: 'Signika Negative SC', sans-serif;
+    }
+    #first_sec h1{
+        -webkit-text-stroke: 1px goldenrod;
+        font-size: 55px;
+        padding: 150px 50px 15px 50px;
+        color: white;
+        border-spacing: 50px;
+        border-bottom: 1px goldenrod solid;
+    }
+    #second_sec hr{
+        border: 0 none;
+        color: goldenrod;
+        height: 5px;
+    }
+    #inputNum{
+        margin-top: 30px;
+        height: 73px;
+        opacity: 30%;
+    }
+    #button1{
+        width: 210px;
+        height: 65px;
+        font-size: 45px;
+        margin:7px;
+        border-radius: 15px;
+    }
+    #button2{
+        width: 442px;
+        height: 65px;
+        font-size: 45px;
+        margin: 3px;
+        border-radius: 15px;
+    }
+    h4{
+        text-align: right;
+        padding-right: 5px;
+        font-size: 36px;
+        color: white;
+        -webkit-text-stroke: 1px goldenrod;
+    }
+    hr{
+        margin-top: 50px;
+        max-width: 50vw; 
+        border-top: 2px solid goldenrod; 
+        opacity: 100%;
+    }
+
+</style>
+<body>
+    <div class="contain_all_task">
+        <section class="section section-l">
+            <div class="container">
+                <div class="section-content" id="first_sec">
+                    <div class="row g-gs justify-content-center">
+                        <div class="col-xl-8">
+                            <center>
+                                <h1>
+                                    Calculator
+                                </h1> 
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-l">
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control input-lg" type="text" id="inputNum" readonly>    
+                    </div>
+                </form>
+
+                <div class="section-content">
+                    <div class="row g-gs justify-content-center pt-5">
+                        <div class="col-xl-8">
+                            <table>
+                                <tr>
+                                    <td><button type="button" class="btn btn-danger" id="button1">AC</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1">+/-</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1">%</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1"><img src="divide.png" width="25px" alt="divide"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button" class="btn btn-light" id="button1">7</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">8</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">9</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1">x</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button" class="btn btn-light" id="button1">4</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">5</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">6</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1">-</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button" class="btn btn-light" id="button1">1</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">2</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">3</button></td>
+                                    <td><button type="button" class="btn btn-warning" id="button1">+</button></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td><button type="button" class="btn btn-light" id="button2">0</button></td>
+                                    <td><button type="button" class="btn btn-light" id="button1">,</button></td>
+                                    <td><button type="button" class="btn btn-success" id="button1">=</button></td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <h4>By Arya, 2022</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
